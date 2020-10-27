@@ -1,0 +1,10 @@
+
+#! /bin/bash
+
+echo "BBBBB  U    U N    N Y     Y  OOOO  DDDDD "
+echo "B    B U    U NN   N  Y   Y  O    O D    D"
+echo "BBBBB  U    U N N  N   Y Y   O    O D    D"
+echo "B    B U    U N  N N    Y    O    O D    D"
+echo "B    B U    U N   NN    Y    O    O D    D"
+echo "BBBBB   UUUU  N    N    Y     OOOO  DDDDD "
+
