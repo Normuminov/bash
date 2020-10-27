@@ -1,3 +1,3 @@
-# Bash scripting
+# My bash projects
 
-Here are my bash codes
+Some description
