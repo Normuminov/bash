@@ -1,10 +1,12 @@
 
 #! /bin/bash
 
+echo
 echo "     A      BBBBB  DDDDD  U    U RRRRR       A      H    H M     M  OOOO  N    N"
 echo "    A A     B    B D    D U    U R    R     A A     H    H MM   MM O    O NN   N"
 echo "   A   A    BBBBB  D    D U    U RRRRR     A   A    HHHHHH M M M M O    O N N  N"
 echo "  AAAAAAA   B    B D    D U    U R    R   AAAAAAA   H    H M  M  M O    O N  N N"
 echo " A       A  B    B D    D U    U R    R  A       A  H    H M     M O    O N   NN"
 echo "A         A BBBBB  DDDDD   UUUU  R    R A         A H    H M     M  OOOO  N    N"
+echo
 

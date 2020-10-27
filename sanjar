@@ -1,11 +1,12 @@
 
 #! /bin/bash
 
-echo " SSSSS        A       N     N  JJJJJ       A       RRRRRR "
-echo "S     S      A A      NN    N      J      A A      R     R"
-echo "S           A   A     N N   N      J     A   A     R     R"
-echo " SSSSS     A     A    N  N  N      J    A     A    RRRRRR "
-echo "      S   AAAAAAAAA   N   N N      J   AAAAAAAAA   R     R"
-echo "S     S  A         A  N    NN J    J  A         A  R     R"
-echo " SSSSS  A           A N     N  JJJJ  A           A R     R"
+echo
+echo " SSSSS       A        N    N  JJJJJ      A      RRRRRR "
+echo "S           A A       NN   N      J     A A     R     R"
+echo " SSSSS     A   A      N N  N      J    A   A    RRRRRR "
+echo "      S   AAAAAAA     N  N N      J   AAAAAAA   R     R"
+echo "S     S  A       A    N   NN J    J  A       A  R     R"
+echo " SSSSS  A         A   N    N  JJJJ  A         A R     R"
+echo
 
