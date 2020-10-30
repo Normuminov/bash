@@ -1,10 +1,38 @@
 
 #! /bin/bash
 
-sudo apt install gimp
-sudo apt install code
-sudo apt install telegram-desktop
-sudo apt install vim
-sudo apt install git
+# chromium-browser
+echo
+echo "$ sudo apt install chromium-browser"
 sudo apt install chromium-browser
+
+# telegram-desktop
+echo
+echo "$ sudo apt install telegram-desktop"
+sudo apt install telegram-desktop
+
+# vim
+echo
+echo "$ sudo apt install vim"
+sudo apt install vim
+
+# git
+echo 
+echo "$ sudo apt install git"
+sudo apt install git
+
+# gimp
+echo
+echo "$ sudo apt install gimp"
+sudo apt install gimp
+
+# snapd
+echo
+echo "$ sudo apt install snapd"
+sudo apt install snapd
+
+# code
+echo
+echo "$ sudo snap install code"
+sudo code install code
 
