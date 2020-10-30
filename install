@@ -1,0 +1,10 @@
+
+#! /bin/bash
+
+sudo apt install gimp
+sudo apt install code
+sudo apt install telegram-desktop
+sudo apt install vim
+sudo apt install git
+sudo apt install chromium-browser
+
