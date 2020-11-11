@@ -1,0 +1,9 @@
+# test directory
+test
+
+# test project
+test.sh
+
+# backup files
+*~
+

@@ -1,10 +1,11 @@
 
+# date
+
 #! /bin/bash
 
 while [ true ]
-do 
-	clear
-	date
+do
+	echo -ne "\r" `date`
 	sleep 1
 done
 
