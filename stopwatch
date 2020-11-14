@@ -1,0 +1,26 @@
+#! /bin/bash 
+
+SECONDS=00
+MINUTES=00
+HOURS=00
+
+while [ true ]
+do
+	echo -ne "\r$HOURS:$MINUTES:$SECONDS"
+	SECONDS=$((SECONDS + 1))
+
+	if [ $SECONDS -eq 60 ]
+	then
+		MINUTES=$((MINUTES + 1))
+		SECONDS=0
+	fi
+
+	if [ $MINUTES -eq 60 ]
+	then
+		HOURS=$((HOURS + 1))
+		MINUTES=0
+		SECONDS=0
+	fi
+
+	sleep 1 
+done
