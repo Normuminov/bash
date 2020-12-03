@@ -1,0 +1,15 @@
+#! /bin/bash
+
+USER=`id --user`
+GROUP=`id --group`
+GROUPS=`id --groups`
+
+USER_NAME=`id --user --name`
+GROUP_NAME=`id --group --name`
+GROUPS_NAME=`id --groups --name`
+
+echo "id	number	name"
+echo "user:	$USER	$USER_NAME"
+echo "group:	$GROUP	$GROUP_NAME"
+echo "groups:	$GROUPS	$GROUPS_NAME"
+
