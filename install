@@ -1,6 +1,29 @@
 
 #! /bin/bash
 
+DEBS=(
+	"chromium-browser"
+	"telegram-desktop"
+	"vim"
+	"git"
+	"gimp"
+	"snapd"
+)
+
+SNAPS=(
+	"code"
+)
+
+INSTALL=()
+
+for app in "${DEBS[@]}"; do
+	read -p "Do you want to install $app" answer
+	
+	case $answer in
+		
+		[Yy]* ) INSTALL
+done
+
 # chromium-browser
 echo
 echo "$ sudo apt install chromium-browser"

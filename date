@@ -1,7 +1,13 @@
 #! /bin/bash
 
-while [ true ]
-do
+stty -echo # disable user input
+tput civis # hide cursor
+
+while true; do
 	echo -ne "\r`date`"
 	sleep 1
 done
+
+stty echo # enable user input
+tput cnorm # show cursor
+
